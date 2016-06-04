@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServer</servlet-name>
+    <servlet-class>action.LoginServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainServer</servlet-name>
+    <servlet-class>action.MainServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonalPublicServer</servlet-name>
+    <servlet-class>action.PersonalPublicServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonalServer</servlet-name>
+    <servlet-class>action.PersonalServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PhotoServer</servlet-name>
+    <servlet-class>action.PhotoServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionServer</servlet-name>
+    <servlet-class>action.QuestionServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SettingsServer</servlet-name>
+    <servlet-class>action.SettingsServer</servlet-class>
+  </servlet>
+
+  
+  <servlet-mapping>
+    <servlet-name>LoginServer</servlet-name>
+    <url-pattern>/servlet/LoginServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainServer</servlet-name>
+    <url-pattern>/servlet/MainServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonalPublicServer</servlet-name>
+    <url-pattern>/servlet/PersonalPublicServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonalServer</servlet-name>
+    <url-pattern>/servlet/PersonalServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhotoServer</servlet-name>
+    <url-pattern>/servlet/PhotoServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionServer</servlet-name>
+    <url-pattern>/servlet/QuestionServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SettingsServer</servlet-name>
+    <url-pattern>/servlet/SettingsServer</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
